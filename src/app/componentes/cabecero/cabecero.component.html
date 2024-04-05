@@ -94,28 +94,16 @@
                 </li>
               </ul>
   
-              <div class="container py-4">
-                <div class="dropdown">
-                  <button class="btn btn-primary dropdown-toggle" data-bs-target="dropdown">Bienvenido</button>
-
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="/configuracion" class="dropdown-item">Configuración</a>
-                    </li>
-                    <li>
-                      <a href="/clientes" class="dropdown-item">Clientes</a>
-                    </li>
-                    <li>
-                      <a href="/login" class="dropdown-item">Login</a>
-                    </li>
-                    <li>
-                      <a href="/registro" class="dropdown-item">Registro</a>
-                    </li>
-
-                  </ul>
-
-                </div>
-
+              <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-target="#lista-bienvenido">
+                  Bienvenidos
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right" id="lista-bienvenido">
+                  <li><a class="dropdown-item" href="/configuracion">Configuración</a></li>
+                  <li><a class="dropdown-item" href="/login">Login</a></li>
+                  <li><a class="dropdown-item" href="/editar-clientes">Editar Clientes</a></li>
+                  <li><a class="dropdown-item" href="/tablero">Control de Clientes</a></li>
+                </ul>
               </div>
             </div>
         </div>

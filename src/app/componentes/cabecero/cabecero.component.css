@@ -1,0 +1,11 @@
+#lista-bienvenido {
+    position: absolute;
+    top: 100%; /* Posiciona la lista debajo del elemento */
+    left: 0;
+    z-index: 1; /* Asegúrate de que la lista se muestre sobre otros elementos */
+    display: none;
+}
+.dropdown:hover #lista-bienvenido {
+    display: block;
+  }
+   
